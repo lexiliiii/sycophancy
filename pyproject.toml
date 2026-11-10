@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cs7650-sycophancy-project"
+version = "0.1.0"
+description = "Multi-model, multi-turn evaluation of LLM response changes under user challenges"
+requires-python = ">=3.10"
+dependencies = [
+  "anthropic>=0.71.0",
+  "google-genai>=1.0.0",
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "openai>=2.0.0",
+  "pandas>=2.2",
+  "PyYAML>=6.0",
+  "scipy>=1.12",
+  "seaborn>=0.13",
+  "tenacity>=9.0",
+  "tqdm>=4.66",
+]
+
+[project.scripts]
+syco-run = "syco_project.runner:main"
+syco-analyze = "syco_project.analysis:main"
+syco-export-dpo = "syco_project.dpo:main"
+syco-train-dpo = "syco_project.train_dpo:main"
+syco-generate-prompts = "syco_project.generate_prompts:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

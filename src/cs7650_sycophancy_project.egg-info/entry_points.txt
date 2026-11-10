@@ -1,0 +1,6 @@
+[console_scripts]
+syco-analyze = syco_project.analysis:main
+syco-export-dpo = syco_project.dpo:main
+syco-generate-prompts = syco_project.generate_prompts:main
+syco-run = syco_project.runner:main
+syco-train-dpo = syco_project.train_dpo:main

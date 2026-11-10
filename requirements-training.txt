@@ -1,0 +1,8 @@
+# Install only on the GPU training environment, after `pip install -e .`.
+accelerate>=1.0
+datasets>=3.0
+peft>=0.20
+torch>=2.5
+transformers>=5.0
+trl>=0.26
+

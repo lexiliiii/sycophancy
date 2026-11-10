@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: cs7650-sycophancy-project
+Version: 0.1.0
+Summary: Multi-model, multi-turn evaluation of LLM response changes under user challenges
+Requires-Python: >=3.10
+Requires-Dist: anthropic>=0.71.0
+Requires-Dist: google-genai>=1.0.0
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: numpy>=1.26
+Requires-Dist: openai>=2.0.0
+Requires-Dist: pandas>=2.2
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: scipy>=1.12
+Requires-Dist: seaborn>=0.13
+Requires-Dist: tenacity>=9.0
+Requires-Dist: tqdm>=4.66
