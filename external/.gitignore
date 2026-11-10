@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets and local overrides
+.env
+.env.*
+*.key
+*.pem
+
+# Evaluation outputs not part of the camera-ready artifact
+results/new_run/
+results/tmp/
+logs/
+
+# LaTeX build intermediates
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.toc
+
+# Keep camera-ready generated artifacts under build/camera_ready tracked.
+build/tmp/
+# Local smoke/export outputs
+build/camera_ready_smoke/
+build/inspect_cli_smoke/
+build/inspect_api_smoke/
+build/huggingface_dataset/
