@@ -27,6 +27,8 @@ syco-analyze = "syco_project.analysis:main"
 syco-export-dpo = "syco_project.dpo:main"
 syco-train-dpo = "syco_project.train_dpo:main"
 syco-generate-prompts = "syco_project.generate_prompts:main"
+syco-merge-runs = "syco_project.merge_runs:main"
+syco-merge-annotations = "syco_project.merge_annotations:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

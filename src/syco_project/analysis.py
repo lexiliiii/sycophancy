@@ -38,6 +38,80 @@ def bootstrap_question_ci(
     )
 
 
+def paired_mitigation_bootstrap(
+    frame: pd.DataFrame,
+    n_boot: int,
+    seed: int,
+    group_columns: list[str],
+) -> pd.DataFrame:
+    """Estimate verify-first minus unmitigated flip rate with question pairing."""
+    selected = frame[frame["mitigation_id"].isin(["none", "verify_first"])].copy()
+    if selected.empty:
+        return pd.DataFrame()
+    index_columns = group_columns + [
+        "question_id",
+        "condition_id",
+        "paraphrase_id",
+    ]
+    paired = (
+        selected.pivot_table(
+            index=index_columns,
+            columns="mitigation_id",
+            values="is_flip",
+            aggfunc="first",
+        )
+        .dropna(subset=["none", "verify_first"])
+        .reset_index()
+    )
+    rows = []
+    grouped = paired.groupby(group_columns, dropna=False) if group_columns else [((), paired)]
+    for group_key, group in grouped:
+        keys = group_key if isinstance(group_key, tuple) else (group_key,)
+        per_question = (
+            group.assign(
+                paired_difference=group["verify_first"].astype(float)
+                - group["none"].astype(float)
+            )
+            .groupby("question_id")["paired_difference"]
+            .mean()
+        )
+        values = per_question.to_numpy(float)
+        if not len(values):
+            continue
+        key_seed = seed + sum(ord(char) for char in "|".join(map(str, keys)))
+        rng = np.random.default_rng(key_seed)
+        draws = rng.choice(values, size=(n_boot, len(values)), replace=True).mean(axis=1)
+        p_value = min(1.0, 2 * min(float((draws >= 0).mean()), float((draws <= 0).mean())))
+        row = dict(zip(group_columns, keys))
+        row.update(
+            {
+                "estimate_verify_minus_none": float(values.mean()),
+                "ci_low": float(np.quantile(draws, 0.025)),
+                "ci_high": float(np.quantile(draws, 0.975)),
+                "bootstrap_p_value": p_value,
+                "n_question_clusters": int(len(values)),
+            }
+        )
+        rows.append(row)
+    return pd.DataFrame(rows)
+
+
+def add_holm_adjustment(frame: pd.DataFrame, family: list[str]) -> pd.DataFrame:
+    """Add Holm-adjusted p-values within each requested comparison family."""
+    if frame.empty:
+        return frame
+    output = frame.copy()
+    output["holm_p_value"] = np.nan
+    families = output.groupby(family, dropna=False) if family else [((), output)]
+    for _, group in families:
+        ordered = group["bootstrap_p_value"].sort_values()
+        adjusted = np.maximum.accumulate(
+            [min(1.0, (len(ordered) - rank) * value) for rank, value in enumerate(ordered)]
+        )
+        output.loc[ordered.index, "holm_p_value"] = adjusted
+    return output
+
+
 def trajectory_row(group: pd.DataFrame, configured_rounds: int) -> dict:
     ordered = group.sort_values("round")
     wrong_rounds = ordered.loc[~ordered["correct_after"], "round"].tolist()
@@ -56,7 +130,12 @@ def trajectory_row(group: pd.DataFrame, configured_rounds: int) -> dict:
     }
 
 
-def analyze(run_dir: Path, annotations_path: str | None, n_boot: int) -> None:
+def analyze(
+    run_dir: Path,
+    annotations_path: str | None,
+    n_boot: int,
+    annotation_per_stratum: int,
+) -> None:
     out = run_dir / "analysis"
     figures = out / "figures"
     out.mkdir(parents=True, exist_ok=True)
@@ -204,6 +283,25 @@ def analyze(run_dir: Path, annotations_path: str | None, n_boot: int) -> None:
         )
     pd.DataFrame(ci_rows).to_csv(out / "bootstrap_ci.csv", index=False)
 
+    paired_overall = paired_mitigation_bootstrap(
+        harmful,
+        n_boot=n_boot,
+        seed=int(manifest["seed"]),
+        group_columns=["model_id", "round"],
+    )
+    paired_overall.to_csv(out / "paired_mitigation_difference.csv", index=False)
+
+    paired_condition = paired_mitigation_bootstrap(
+        harmful,
+        n_boot=n_boot,
+        seed=int(manifest["seed"]),
+        group_columns=["model_id", "round", "condition_id"],
+    )
+    paired_condition = add_holm_adjustment(
+        paired_condition, family=["model_id", "round"]
+    )
+    paired_condition.to_csv(out / "condition_paired_effects.csv", index=False)
+
     sns.set_theme(style="whitegrid")
     grid = sns.relplot(
         data=overall,
@@ -272,6 +370,26 @@ def analyze(run_dir: Path, annotations_path: str | None, n_boot: int) -> None:
     annotation_sample["manual_outcome"] = ""
     annotation_sample.to_csv(out / "annotation_template.csv", index=False)
 
+    if annotation_per_stratum > 0:
+        strata = [
+            "model_id",
+            "condition_id",
+            "mitigation_id",
+            "round",
+            "outcome",
+        ]
+        annotation_subset = (
+            annotation_sample.groupby(strata, dropna=False, group_keys=False)
+            .apply(
+                lambda group: group.sample(
+                    n=min(annotation_per_stratum, len(group)),
+                    random_state=int(manifest["seed"]),
+                )
+            )
+            .reset_index(drop=True)
+        )
+        annotation_subset.to_csv(out / "annotation_sample.csv", index=False)
+
     print(f"Analysis written to {out}")
     print(baseline_summary.to_string(index=False))
 
@@ -281,8 +399,19 @@ def main() -> None:
     parser.add_argument("--run-dir", required=True)
     parser.add_argument("--annotations", help="Optional adjudicated annotation CSV")
     parser.add_argument("--n-bootstrap", type=int, default=2000)
+    parser.add_argument(
+        "--annotation-per-stratum",
+        type=int,
+        default=2,
+        help="Rows sampled per model/condition/mitigation/round/outcome stratum; 0 disables",
+    )
     args = parser.parse_args()
-    analyze(Path(args.run_dir).resolve(), args.annotations, args.n_bootstrap)
+    analyze(
+        Path(args.run_dir).resolve(),
+        args.annotations,
+        args.n_bootstrap,
+        args.annotation_per_stratum,
+    )
 
 
 if __name__ == "__main__":

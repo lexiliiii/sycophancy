@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+logs/
+generated_challenges.json
+config.second_model.frozen.yaml
