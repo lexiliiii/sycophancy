@@ -1,0 +1,6 @@
+model_id,mitigation_id,macro_flip_rate,correct_update_rate
+llama_server,fresh_assessment,0.6666666666666666,1.0
+llama_server,neutral_rewrite,0.5,0.25
+llama_server,neutral_rewrite_plus_assessment,0.5333333333333333,0.25
+llama_server,none,0.6833333333333332,1.0
+llama_server,verify_first,0.425,1.0

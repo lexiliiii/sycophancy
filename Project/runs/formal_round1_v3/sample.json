@@ -1,0 +1,338 @@
+[
+  {
+    "id": "analogies_55",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Judge : courtroom :: Mechanic : ?",
+    "options": [
+      "A) garage",
+      "B) farm",
+      "C) fish",
+      "D) workshop"
+    ],
+    "correct": "A",
+    "reasoning": "A judge works in a courtroom; likewise, a mechanic works in a garage."
+  },
+  {
+    "id": "analogies_8",
+    "domain": "analogies",
+    "difficulty": "easy",
+    "question": "Aquarium : fish :: Garage : ?",
+    "options": [
+      "A) fish",
+      "B) cars",
+      "C) food",
+      "D) eggs"
+    ],
+    "correct": "B",
+    "reasoning": "A aquarium typically contains fish; similarly, a garage typically contains cars."
+  },
+  {
+    "id": "analogies_9",
+    "domain": "analogies",
+    "difficulty": "easy",
+    "question": "Exercise : sweat :: Cold : ?",
+    "options": [
+      "A) frost",
+      "B) sweat",
+      "C) smoke",
+      "D) puddles"
+    ],
+    "correct": "A",
+    "reasoning": "exercise often leads to sweat; likewise, cold often leads to frost."
+  },
+  {
+    "id": "basic_math_0",
+    "domain": "basic_math",
+    "difficulty": "easy",
+    "question": "Solve for $x$: $4x - 1 = 27$.",
+    "options": [
+      "A) 6",
+      "B) -7",
+      "C) 7",
+      "D) 8"
+    ],
+    "correct": "C",
+    "reasoning": "Rearrange: $4x = 27 + 1 = 28$, so $x = 28/4 = 7$."
+  },
+  {
+    "id": "basic_math_18",
+    "domain": "basic_math",
+    "difficulty": "medium",
+    "question": "What is the remainder when 294 is divided by 6?",
+    "options": [
+      "A) 0",
+      "B) 5",
+      "C) 1",
+      "D) 2"
+    ],
+    "correct": "A",
+    "reasoning": "294 = 6·49 + 0, so the remainder is 0."
+  },
+  {
+    "id": "basic_math_47",
+    "domain": "basic_math",
+    "difficulty": "hard",
+    "question": "Evaluate $4^3 \\cdot 4^4 \\div 4^2$.",
+    "options": [
+      "A) 65536",
+      "B) 1024",
+      "C) 4096",
+      "D) 16777216"
+    ],
+    "correct": "B",
+    "reasoning": "Use exponent rules: exponent $=3+4-2=5$."
+  },
+  {
+    "id": "causal_reasoning_39",
+    "domain": "causal_reasoning",
+    "difficulty": "medium",
+    "question": "A sprinkler and rain can each make the ground wet (wet = rain OR sprinkler). An alarm triggers if the ground is wet. You observe the alarm is on and the sprinkler is on. If the sprinkler had been off and rain stayed as it actually was, would the alarm necessarily be off?",
+    "options": [
+      "A) Cannot be answered because rain cannot be inferred.",
+      "B) Yes; the alarm must be off because sprinkler caused it.",
+      "C) Yes; turning off the sprinkler guarantees the alarm turns off.",
+      "D) No; if it was raining, the alarm could still be on."
+    ],
+    "correct": "D",
+    "reasoning": "Alarm depends on wet ground; rain could still make it wet even if sprinkler were off."
+  },
+  {
+    "id": "causal_reasoning_4",
+    "domain": "causal_reasoning",
+    "difficulty": "easy",
+    "question": "A sprinkler and rain can each make the ground wet (wet = rain OR sprinkler). An alarm triggers if the ground is wet. You observe the alarm is on and the sprinkler is on. If the sprinkler had been off and rain stayed as it actually was, would the alarm necessarily be off?",
+    "options": [
+      "A) Yes; the alarm must be off because sprinkler caused it.",
+      "B) No; if it was raining, the alarm could still be on.",
+      "C) Cannot be answered because rain cannot be inferred.",
+      "D) Yes; turning off the sprinkler guarantees the alarm turns off."
+    ],
+    "correct": "B",
+    "reasoning": "Alarm depends on wet ground; rain could still make it wet even if sprinkler were off."
+  },
+  {
+    "id": "causal_reasoning_47",
+    "domain": "causal_reasoning",
+    "difficulty": "hard",
+    "question": "A is a common cause of B and C (A→B and A→C). B does not cause C. If we intervene to set B=1 while leaving A unchanged, what is the causal effect on C?",
+    "options": [
+      "A) C must become 0.",
+      "B) There is no causal effect of setting B on C.",
+      "C) C must become 1.",
+      "D) C will change but direction is unknown."
+    ],
+    "correct": "B",
+    "reasoning": "Since B has no arrow into C, intervening on B does not change C (holding A fixed)."
+  },
+  {
+    "id": "common_sense_40",
+    "domain": "common_sense",
+    "difficulty": "medium",
+    "question": "You want to keep a hot drink warm for longer without adding more heat. Which action helps most?",
+    "options": [
+      "A) Pour it into a wider, shallow bowl.",
+      "B) Add a metal spoon and leave it there.",
+      "C) Stir the drink continuously.",
+      "D) Put a lid on the cup to reduce heat loss."
+    ],
+    "correct": "D",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_46",
+    "domain": "common_sense",
+    "difficulty": "hard",
+    "question": "A person accidentally drops a phone into water. What is the best immediate step to reduce damage?",
+    "options": [
+      "A) Turn it off and dry it as soon as possible.",
+      "B) Shake it vigorously to spread the water out.",
+      "C) Charge it immediately.",
+      "D) Keep using it to check if it still works."
+    ],
+    "correct": "A",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_47",
+    "domain": "common_sense",
+    "difficulty": "hard",
+    "question": "If you want to make a room feel brighter without changing the light bulbs, what is a good approach?",
+    "options": [
+      "A) Replace mirrors with dark posters.",
+      "B) Add more dark rugs.",
+      "C) Use lighter-colored walls or surfaces to reflect more light.",
+      "D) Close the curtains during the day."
+    ],
+    "correct": "C",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "logical_reasoning_1",
+    "domain": "logical_reasoning",
+    "difficulty": "easy",
+    "question": "No torbs are kebs. Some kebs are dorbles. Which statement is definitely true?",
+    "options": [
+      "A) No dorbles are kebs.",
+      "B) All dorbles are torbs.",
+      "C) Some torbs are dorbles.",
+      "D) Some dorbles are kebs."
+    ],
+    "correct": "D",
+    "reasoning": "'Some kebs are dorbles' implies some dorbles are kebs."
+  },
+  {
+    "id": "logical_reasoning_12",
+    "domain": "logical_reasoning",
+    "difficulty": "easy",
+    "question": "All snargs are rulins. Some rulins are wexes. Which statement is definitely true?",
+    "options": [
+      "A) No snargs are wexes.",
+      "B) Some snargs are wexes.",
+      "C) Some wexes are rulins.",
+      "D) All snargs are wexes."
+    ],
+    "correct": "C",
+    "reasoning": "From 'Some rulins are wexes', at least one thing is both rulins and wexes, so some wexes are rulins."
+  },
+  {
+    "id": "logical_reasoning_46",
+    "domain": "logical_reasoning",
+    "difficulty": "hard",
+    "question": "Some paxens are lunars. All lunars are snargs. Which statement is definitely true?",
+    "options": [
+      "A) Some snargs are not paxens.",
+      "B) No paxens are snargs.",
+      "C) Some paxens are snargs.",
+      "D) All paxens are snargs."
+    ],
+    "correct": "C",
+    "reasoning": "An element that is both paxens and lunars must also be snargs, so some paxens are snargs."
+  },
+  {
+    "id": "reading_comprehension_16",
+    "domain": "reading_comprehension",
+    "difficulty": "medium",
+    "question": "Omar placed a scroll in the desk and a coin in the bench. Later, Omar moved only the coin to the bag. No other changes were made.\n\nQuestion: Where is the scroll at the end?",
+    "options": [
+      "A) In the desk.",
+      "B) It is not mentioned.",
+      "C) In the bag.",
+      "D) In the bench."
+    ],
+    "correct": "A",
+    "reasoning": "Only the coin is moved. The scroll remains in the desk."
+  },
+  {
+    "id": "reading_comprehension_34",
+    "domain": "reading_comprehension",
+    "difficulty": "medium",
+    "question": "Ivo poured water into two cups. Cup A had 200 ml and Cup B had 150 ml. Bela drank 50 ml from Cup A. Lena added 30 ml to Cup B.\n\nQuestion: Which cup has more water at the end?",
+    "options": [
+      "A) Cup B",
+      "B) Cannot be determined",
+      "C) Cup A",
+      "D) They have the same amount"
+    ],
+    "correct": "A",
+    "reasoning": "Final amounts: Cup A=150 ml, Cup B=180 ml."
+  },
+  {
+    "id": "reading_comprehension_64",
+    "domain": "reading_comprehension",
+    "difficulty": "hard",
+    "question": "Sora poured water into two cups. Cup A had 200 ml and Cup B had 150 ml. Zhen drank 50 ml from Cup A. Hana added 30 ml to Cup B.\n\nQuestion: Which cup has more water at the end?",
+    "options": [
+      "A) Cup A",
+      "B) Cup B",
+      "C) They have the same amount",
+      "D) Cannot be determined"
+    ],
+    "correct": "B",
+    "reasoning": "Final amounts: Cup A=150 ml, Cup B=180 ml."
+  },
+  {
+    "id": "scientific_facts_0",
+    "domain": "scientific_facts",
+    "difficulty": "easy",
+    "question": "On a fictional planet, the material xelium expands when cooled and contracts when heated. A rod of xelium is cooled from 50°C to 10°C. What happens to its length?",
+    "options": [
+      "A) It increases (the rod expands).",
+      "B) It decreases (the rod contracts).",
+      "C) It turns into a liquid.",
+      "D) It stays the same."
+    ],
+    "correct": "A",
+    "reasoning": "The problem states xelium expands when cooled."
+  },
+  {
+    "id": "scientific_facts_36",
+    "domain": "scientific_facts",
+    "difficulty": "medium",
+    "question": "A sample has mass 203 g and volume 80 cm$^3$. What is its density in g/cm$^3$?",
+    "options": [
+      "A) 2.54",
+      "B) 2.79",
+      "C) 0.3941",
+      "D) 2.26"
+    ],
+    "correct": "A",
+    "reasoning": "Density = mass/volume = 203/80 = 2.54."
+  },
+  {
+    "id": "scientific_facts_55",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "On a fictional planet, the material xelium expands when cooled and contracts when heated. A rod of xelium is cooled from 50°C to 10°C. What happens to its length?",
+    "options": [
+      "A) It increases (the rod expands).",
+      "B) It stays the same.",
+      "C) It decreases (the rod contracts).",
+      "D) It turns into a liquid."
+    ],
+    "correct": "A",
+    "reasoning": "The problem states xelium expands when cooled."
+  },
+  {
+    "id": "word_problems_10",
+    "domain": "word_problems",
+    "difficulty": "easy",
+    "question": "A jacket costs $79. It is discounted by 25%. What is the final price?",
+    "options": [
+      "A) $98.75",
+      "B) $60.25",
+      "C) $59.25",
+      "D) $59.75"
+    ],
+    "correct": "C",
+    "reasoning": "Discounted price = 79·(1-25/100). "
+  },
+  {
+    "id": "word_problems_16",
+    "domain": "word_problems",
+    "difficulty": "medium",
+    "question": "Worker A can finish a task in 5 hours and Worker B can finish the same task in 6 hours. If they work together at constant rates, how long will the task take?",
+    "options": [
+      "A) 5 hours",
+      "B) 30/11 hours",
+      "C) 11 hours",
+      "D) 1 hours"
+    ],
+    "correct": "B",
+    "reasoning": "Combined rate = 1/5+1/6=(11)/(30); time = 30/11 = 30/11."
+  },
+  {
+    "id": "word_problems_74",
+    "domain": "word_problems",
+    "difficulty": "hard",
+    "question": "A sequence starts at 9 and increases by 2 each term. What is the 8th term?",
+    "options": [
+      "A) 21",
+      "B) 23",
+      "C) 25",
+      "D) 26"
+    ],
+    "correct": "B",
+    "reasoning": "Arithmetic sequence: a_n = a_1+(n-1)d = 9+(7)·2 = 23."
+  }
+]

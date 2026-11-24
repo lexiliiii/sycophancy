@@ -1,0 +1,2 @@
+model_id,mitigation_id,n_chains,median_turn_of_flip,ever_flip_rate,persistent_final_error_rate,recovery_rate
+llama_server,none,2,1.5,0.5,0.5,0.0

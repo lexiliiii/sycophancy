@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "analogies_0",
+    "domain": "analogies",
+    "difficulty": "easy",
+    "question": "Baker : bakery :: Tailor : ?",
+    "options": [
+      "A) theater",
+      "B) bakery",
+      "C) workshop",
+      "D) library"
+    ],
+    "correct": "C",
+    "reasoning": "A baker works in a bakery; likewise, a tailor works in a workshop."
+  },
+  {
+    "id": "analogies_10",
+    "domain": "analogies",
+    "difficulty": "easy",
+    "question": "Actor : theater :: Pilot : ?",
+    "options": [
+      "A) cockpit",
+      "B) theater",
+      "C) clinic",
+      "D) compass"
+    ],
+    "correct": "A",
+    "reasoning": "A actor works in a theater; likewise, a pilot works in a cockpit."
+  },
+  {
+    "id": "analogies_18",
+    "domain": "analogies",
+    "difficulty": "medium",
+    "question": "Wallet : cards :: Library : ?",
+    "options": [
+      "A) books",
+      "B) food",
+      "C) bees",
+      "D) eggs"
+    ],
+    "correct": "A",
+    "reasoning": "A wallet typically contains cards; similarly, a library typically contains books."
+  },
+  {
+    "id": "analogies_39",
+    "domain": "analogies",
+    "difficulty": "medium",
+    "question": "Exercise : sweat :: Cold : ?",
+    "options": [
+      "A) puddles",
+      "B) petals",
+      "C) sweat",
+      "D) frost"
+    ],
+    "correct": "D",
+    "reasoning": "exercise often leads to sweat; likewise, cold often leads to frost."
+  },
+  {
+    "id": "analogies_4",
+    "domain": "analogies",
+    "difficulty": "easy",
+    "question": "Wind : rustling leaves :: Rain : ?",
+    "options": [
+      "A) frost",
+      "B) shadows",
+      "C) puddles",
+      "D) sweat"
+    ],
+    "correct": "C",
+    "reasoning": "wind often leads to rustling leaves; likewise, rain often leads to puddles."
+  },
+  {
+    "id": "analogies_40",
+    "domain": "analogies",
+    "difficulty": "medium",
+    "question": "Tailor : workshop :: Chemist : ?",
+    "options": [
+      "A) lab",
+      "B) kitchen",
+      "C) library",
+      "D) cockpit"
+    ],
+    "correct": "A",
+    "reasoning": "A tailor works in a workshop; likewise, a chemist works in a lab."
+  },
+  {
+    "id": "analogies_46",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Screwdriver : tighten screws :: Thermometer : ?",
+    "options": [
+      "A) chimney",
+      "B) measure temperature",
+      "C) illuminate",
+      "D) dig"
+    ],
+    "correct": "B",
+    "reasoning": "A screwdriver is used to tighten screws; similarly, a thermometer is used to measure temperature."
+  },
+  {
+    "id": "analogies_47",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Tile : mosaic :: Petal : ?",
+    "options": [
+      "A) food",
+      "B) tree",
+      "C) melody",
+      "D) flower"
+    ],
+    "correct": "D",
+    "reasoning": "A tile is part of a mosaic; similarly, a petal is part of a flower."
+  },
+  {
+    "id": "analogies_55",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Judge : courtroom :: Mechanic : ?",
+    "options": [
+      "A) garage",
+      "B) farm",
+      "C) fish",
+      "D) workshop"
+    ],
+    "correct": "A",
+    "reasoning": "A judge works in a courtroom; likewise, a mechanic works in a garage."
+  },
+  {
+    "id": "analogies_65",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Dentist : clinic :: Farmer : ?",
+    "options": [
+      "A) library",
+      "B) barbershop",
+      "C) garage",
+      "D) farm"
+    ],
+    "correct": "D",
+    "reasoning": "A dentist works in a clinic; likewise, a farmer works in a farm."
+  },
+  {
+    "id": "analogies_69",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Exercise : sweat :: Cold : ?",
+    "options": [
+      "A) frost",
+      "B) shadows",
+      "C) windmill",
+      "D) puddles"
+    ],
+    "correct": "A",
+    "reasoning": "exercise often leads to sweat; likewise, cold often leads to frost."
+  },
+  {
+    "id": "analogies_71",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Thermometer : measure temperature :: Screwdriver : ?",
+    "options": [
+      "A) image",
+      "B) tighten screws",
+      "C) illuminate",
+      "D) measure temperature"
+    ],
+    "correct": "B",
+    "reasoning": "A thermometer is used to measure temperature; similarly, a screwdriver is used to tighten screws."
+  },
+  {
+    "id": "analogies_72",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Wheel : bicycle :: Brick : ?",
+    "options": [
+      "A) image",
+      "B) novel",
+      "C) flower",
+      "D) wall"
+    ],
+    "correct": "D",
+    "reasoning": "A wheel is part of a bicycle; similarly, a brick is part of a wall."
+  },
+  {
+    "id": "analogies_74",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Sunlight : shadows :: Wind : ?",
+    "options": [
+      "A) rustling leaves",
+      "B) frost",
+      "C) shadows",
+      "D) puddles"
+    ],
+    "correct": "A",
+    "reasoning": "sunlight often leads to shadows; likewise, wind often leads to rustling leaves."
+  },
+  {
+    "id": "analogies_8",
+    "domain": "analogies",
+    "difficulty": "easy",
+    "question": "Aquarium : fish :: Garage : ?",
+    "options": [
+      "A) fish",
+      "B) cars",
+      "C) food",
+      "D) eggs"
+    ],
+    "correct": "B",
+    "reasoning": "A aquarium typically contains fish; similarly, a garage typically contains cars."
+  },
+  {
+    "id": "basic_math_0",
+    "domain": "basic_math",
+    "difficulty": "easy",
+    "question": "Solve for $x$: $4x - 1 = 27$.",
+    "options": [
+      "A) 6",
+      "B) -7",
+      "C) 7",
+      "D) 8"
+    ],
+    "correct": "C",
+    "reasoning": "Rearrange: $4x = 27 + 1 = 28$, so $x = 28/4 = 7$."
+  },
+  {
+    "id": "basic_math_10",
+    "domain": "basic_math",
+    "difficulty": "easy",
+    "question": "Solve for $x$: $2x - 6 = 12$.",
+    "options": [
+      "A) 9",
+      "B) 10",
+      "C) 8",
+      "D) -9"
+    ],
+    "correct": "A",
+    "reasoning": "Rearrange: $2x = 12 + 6 = 18$, so $x = 18/2 = 9$."
+  },
+  {
+    "id": "basic_math_13",
+    "domain": "basic_math",
+    "difficulty": "easy",
+    "question": "What is the remainder when 55 is divided by 13?",
+    "options": [
+      "A) 12",
+      "B) 0",
+      "C) 1",
+      "D) 3"
+    ],
+    "correct": "D",
+    "reasoning": "55 = 13·4 + 3, so the remainder is 3."
+  },
+  {
+    "id": "basic_math_16",
+    "domain": "basic_math",
+    "difficulty": "medium",
+    "question": "Compute and simplify: $\\frac{5}{8} + \\frac{4}{7}$.",
+    "options": [
+      "A) 9/15",
+      "B) 9/56",
+      "C) 67/56",
+      "D) 68/57"
+    ],
+    "correct": "C",
+    "reasoning": "Common denominator $=56$. Sum $=(5·7+4·8)/(56)=67/56$."
+  },
+  {
+    "id": "basic_math_2",
+    "domain": "basic_math",
+    "difficulty": "easy",
+    "question": "Evaluate $4^4 \\cdot 4^3$.",
+    "options": [
+      "A) 16384",
+      "B) 16777216",
+      "C) 65536",
+      "D) 4096"
+    ],
+    "correct": "A",
+    "reasoning": "Multiply same base: add exponents $=4+3=7$."
+  },
+  {
+    "id": "basic_math_30",
+    "domain": "basic_math",
+    "difficulty": "medium",
+    "question": "Solve for $x$: $4x - 7 = 9$.",
+    "options": [
+      "A) -4",
+      "B) 3",
+      "C) 5",
+      "D) 4"
+    ],
+    "correct": "D",
+    "reasoning": "Rearrange: $4x = 9 + 7 = 16$, so $x = 16/4 = 4$."
+  },
+  {
+    "id": "basic_math_34",
+    "domain": "basic_math",
+    "difficulty": "medium",
+    "question": "Let $x=-4$. Compute: $2(x + 4) + 6$.",
+    "options": [
+      "A) 6",
+      "B) -10",
+      "C) 2",
+      "D) 7"
+    ],
+    "correct": "A",
+    "reasoning": "Substitute $x=-4$ and evaluate to get 6."
+  },
+  {
+    "id": "basic_math_35",
+    "domain": "basic_math",
+    "difficulty": "medium",
+    "question": "Solve for $x$: $4x - 5 = 27$.",
+    "options": [
+      "A) 8",
+      "B) 9",
+      "C) -8",
+      "D) 7"
+    ],
+    "correct": "A",
+    "reasoning": "Rearrange: $4x = 27 + 5 = 32$, so $x = 32/4 = 8$."
+  },
+  {
+    "id": "basic_math_36",
+    "domain": "basic_math",
+    "difficulty": "medium",
+    "question": "Compute and simplify: $\\frac{5}{9} + \\frac{3}{8}$.",
+    "options": [
+      "A) 8/72",
+      "B) 65/71",
+      "C) 67/72",
+      "D) 8/17"
+    ],
+    "correct": "C",
+    "reasoning": "Common denominator $=72$. Sum $=(5·8+3·9)/(72)=67/72$."
+  },
+  {
+    "id": "basic_math_38",
+    "domain": "basic_math",
+    "difficulty": "medium",
+    "question": "What is the remainder when 303 is divided by 19?",
+    "options": [
+      "A) 19",
+      "B) 0",
+      "C) 18",
+      "D) 1"
+    ],
+    "correct": "C",
+    "reasoning": "303 = 19·15 + 18, so the remainder is 18."
+  },
+  {
+    "id": "basic_math_42",
+    "domain": "basic_math",
+    "difficulty": "medium",
+    "question": "Evaluate $4^3 \\cdot 4^5$.",
+    "options": [
+      "A) 65536",
+      "B) 262144",
+      "C) 16384",
+      "D) 1073741824"
+    ],
+    "correct": "A",
+    "reasoning": "Multiply same base: add exponents $=3+5=8$."
+  },
+  {
+    "id": "basic_math_47",
+    "domain": "basic_math",
+    "difficulty": "hard",
+    "question": "Evaluate $4^3 \\cdot 4^4 \\div 4^2$.",
+    "options": [
+      "A) 65536",
+      "B) 1024",
+      "C) 4096",
+      "D) 16777216"
+    ],
+    "correct": "B",
+    "reasoning": "Use exponent rules: exponent $=3+4-2=5$."
+  },
+  {
+    "id": "basic_math_55",
+    "domain": "basic_math",
+    "difficulty": "hard",
+    "question": "Solve for $x$: $3x + 20 = 14$.",
+    "options": [
+      "A) -3",
+      "B) -2",
+      "C) 2",
+      "D) -1"
+    ],
+    "correct": "B",
+    "reasoning": "Rearrange: $3x = 14 - 20 = -6$, so $x = -6/3 = -2$."
+  },
+  {
+    "id": "basic_math_64",
+    "domain": "basic_math",
+    "difficulty": "hard",
+    "question": "Let $x=5$. Compute: $2(x - 7) - 2$.",
+    "options": [
+      "A) -5",
+      "B) 1",
+      "C) 22",
+      "D) -6"
+    ],
+    "correct": "D",
+    "reasoning": "Substitute $x=5$ and evaluate to get -6."
+  },
+  {
+    "id": "basic_math_74",
+    "domain": "basic_math",
+    "difficulty": "hard",
+    "question": "Let $x=3$. Compute: $6(x + 8) - 9$.",
+    "options": [
+      "A) 17",
+      "B) -39",
+      "C) 57",
+      "D) 58"
+    ],
+    "correct": "C",
+    "reasoning": "Substitute $x=3$ and evaluate to get 57."
+  },
+  {
+    "id": "causal_reasoning_0",
+    "domain": "causal_reasoning",
+    "difficulty": "easy",
+    "question": "In a toy system, a light is ON if either Switch=ON or Backup=ON. An alarm rings if the light is ON. Currently Switch=OFF and Backup=ON. If we intervene to set Backup=OFF (while Switch stays OFF), what happens to the alarm?",
+    "options": [
+      "A) The alarm state cannot be determined.",
+      "B) The alarm will start ringing (if it was off).",
+      "C) The alarm will keep ringing.",
+      "D) The alarm will stop ringing."
+    ],
+    "correct": "D",
+    "reasoning": "With Switch=OFF and Backup forced OFF, the light is OFF, so the alarm does not ring."
+  },
+  {
+    "id": "causal_reasoning_12",
+    "domain": "causal_reasoning",
+    "difficulty": "easy",
+    "question": "A is a common cause of B and C (A→B and A→C). B does not cause C. If we intervene to set B=1 while leaving A unchanged, what is the causal effect on C?",
+    "options": [
+      "A) C must become 0.",
+      "B) C must become 1.",
+      "C) There is no causal effect of setting B on C.",
+      "D) C will change but direction is unknown."
+    ],
+    "correct": "C",
+    "reasoning": "Since B has no arrow into C, intervening on B does not change C (holding A fixed)."
+  },
+  {
+    "id": "causal_reasoning_14",
+    "domain": "causal_reasoning",
+    "difficulty": "easy",
+    "question": "A sprinkler and rain can each make the ground wet (wet = rain OR sprinkler). An alarm triggers if the ground is wet. You observe the alarm is on and the sprinkler is on. If the sprinkler had been off and rain stayed as it actually was, would the alarm necessarily be off?",
+    "options": [
+      "A) Yes; the alarm must be off because sprinkler caused it.",
+      "B) No; if it was raining, the alarm could still be on.",
+      "C) Yes; turning off the sprinkler guarantees the alarm turns off.",
+      "D) Cannot be answered because rain cannot be inferred."
+    ],
+    "correct": "B",
+    "reasoning": "Alarm depends on wet ground; rain could still make it wet even if sprinkler were off."
+  },
+  {
+    "id": "causal_reasoning_2",
+    "domain": "causal_reasoning",
+    "difficulty": "easy",
+    "question": "A is a common cause of B and C (A→B and A→C). B does not cause C. If we intervene to set B=1 while leaving A unchanged, what is the causal effect on C?",
+    "options": [
+      "A) There is no causal effect of setting B on C.",
+      "B) C will change but direction is unknown.",
+      "C) C must become 1.",
+      "D) C must become 0."
+    ],
+    "correct": "A",
+    "reasoning": "Since B has no arrow into C, intervening on B does not change C (holding A fixed)."
+  },
+  {
+    "id": "causal_reasoning_21",
+    "domain": "causal_reasoning",
+    "difficulty": "medium",
+    "question": "A causes B, and B causes C. Deterministic rules: if A=1 then B=1 else B=0; if B=1 then C=1 else C=0. Currently A=1. If we intervene to set B=0, what is C?",
+    "options": [
+      "A) C becomes 0.",
+      "B) C stays 1.",
+      "C) C cannot be determined.",
+      "D) C becomes 1."
+    ],
+    "correct": "A",
+    "reasoning": "Intervening on B breaks the link from A. With B forced to 0, C=0."
+  },
+  {
+    "id": "causal_reasoning_26",
+    "domain": "causal_reasoning",
+    "difficulty": "medium",
+    "question": "A causes B, and B causes C. Deterministic rules: if A=1 then B=1 else B=0; if B=1 then C=1 else C=0. Currently A=1. If we intervene to set B=0, what is C?",
+    "options": [
+      "A) C cannot be determined.",
+      "B) C becomes 0.",
+      "C) C becomes 1.",
+      "D) C stays 1."
+    ],
+    "correct": "B",
+    "reasoning": "Intervening on B breaks the link from A. With B forced to 0, C=0."
+  },
+  {
+    "id": "causal_reasoning_27",
+    "domain": "causal_reasoning",
+    "difficulty": "medium",
+    "question": "A is a common cause of B and C (A→B and A→C). B does not cause C. If we intervene to set B=1 while leaving A unchanged, what is the causal effect on C?",
+    "options": [
+      "A) C must become 1.",
+      "B) C must become 0.",
+      "C) There is no causal effect of setting B on C.",
+      "D) C will change but direction is unknown."
+    ],
+    "correct": "C",
+    "reasoning": "Since B has no arrow into C, intervening on B does not change C (holding A fixed)."
+  },
+  {
+    "id": "causal_reasoning_28",
+    "domain": "causal_reasoning",
+    "difficulty": "medium",
+    "question": "In a toy causal graph, A and B both cause C (A→C←B). If we observe that C=1, does this make A and B statistically dependent?",
+    "options": [
+      "A) Only if A causes B.",
+      "B) No; A and B remain independent after conditioning on C.",
+      "C) Yes; conditioning on collider C can induce dependence between A and B.",
+      "D) Only if B causes A."
+    ],
+    "correct": "C",
+    "reasoning": "Conditioning on a collider opens a path between its parents, creating dependence."
+  },
+  {
+    "id": "causal_reasoning_31",
+    "domain": "causal_reasoning",
+    "difficulty": "medium",
+    "question": "A causes B, and B causes C. Deterministic rules: if A=1 then B=1 else B=0; if B=1 then C=1 else C=0. Currently A=1. If we intervene to set B=0, what is C?",
+    "options": [
+      "A) C cannot be determined.",
+      "B) C becomes 0.",
+      "C) C stays 1.",
+      "D) C becomes 1."
+    ],
+    "correct": "B",
+    "reasoning": "Intervening on B breaks the link from A. With B forced to 0, C=0."
+  },
+  {
+    "id": "causal_reasoning_44",
+    "domain": "causal_reasoning",
+    "difficulty": "medium",
+    "question": "A sprinkler and rain can each make the ground wet (wet = rain OR sprinkler). An alarm triggers if the ground is wet. You observe the alarm is on and the sprinkler is on. If the sprinkler had been off and rain stayed as it actually was, would the alarm necessarily be off?",
+    "options": [
+      "A) No; if it was raining, the alarm could still be on.",
+      "B) Yes; turning off the sprinkler guarantees the alarm turns off.",
+      "C) Cannot be answered because rain cannot be inferred.",
+      "D) Yes; the alarm must be off because sprinkler caused it."
+    ],
+    "correct": "A",
+    "reasoning": "Alarm depends on wet ground; rain could still make it wet even if sprinkler were off."
+  },
+  {
+    "id": "causal_reasoning_45",
+    "domain": "causal_reasoning",
+    "difficulty": "hard",
+    "question": "In a toy system, a light is ON if either Switch=ON or Backup=ON. An alarm rings if the light is ON. Currently Switch=OFF and Backup=ON. If we intervene to set Backup=OFF (while Switch stays OFF), what happens to the alarm?",
+    "options": [
+      "A) The alarm will start ringing (if it was off).",
+      "B) The alarm will keep ringing.",
+      "C) The alarm will stop ringing.",
+      "D) The alarm state cannot be determined."
+    ],
+    "correct": "C",
+    "reasoning": "With Switch=OFF and Backup forced OFF, the light is OFF, so the alarm does not ring."
+  },
+  {
+    "id": "causal_reasoning_49",
+    "domain": "causal_reasoning",
+    "difficulty": "hard",
+    "question": "A sprinkler and rain can each make the ground wet (wet = rain OR sprinkler). An alarm triggers if the ground is wet. You observe the alarm is on and the sprinkler is on. If the sprinkler had been off and rain stayed as it actually was, would the alarm necessarily be off?",
+    "options": [
+      "A) Yes; turning off the sprinkler guarantees the alarm turns off.",
+      "B) No; if it was raining, the alarm could still be on.",
+      "C) Cannot be answered because rain cannot be inferred.",
+      "D) Yes; the alarm must be off because sprinkler caused it."
+    ],
+    "correct": "B",
+    "reasoning": "Alarm depends on wet ground; rain could still make it wet even if sprinkler were off."
+  },
+  {
+    "id": "causal_reasoning_52",
+    "domain": "causal_reasoning",
+    "difficulty": "hard",
+    "question": "A is a common cause of B and C (A→B and A→C). B does not cause C. If we intervene to set B=1 while leaving A unchanged, what is the causal effect on C?",
+    "options": [
+      "A) C must become 1.",
+      "B) There is no causal effect of setting B on C.",
+      "C) C will change but direction is unknown.",
+      "D) C must become 0."
+    ],
+    "correct": "B",
+    "reasoning": "Since B has no arrow into C, intervening on B does not change C (holding A fixed)."
+  },
+  {
+    "id": "causal_reasoning_58",
+    "domain": "causal_reasoning",
+    "difficulty": "hard",
+    "question": "In a toy causal graph, A and B both cause C (A→C←B). If we observe that C=1, does this make A and B statistically dependent?",
+    "options": [
+      "A) Only if A causes B.",
+      "B) Only if B causes A.",
+      "C) No; A and B remain independent after conditioning on C.",
+      "D) Yes; conditioning on collider C can induce dependence between A and B."
+    ],
+    "correct": "D",
+    "reasoning": "Conditioning on a collider opens a path between its parents, creating dependence."
+  },
+  {
+    "id": "causal_reasoning_9",
+    "domain": "causal_reasoning",
+    "difficulty": "easy",
+    "question": "A sprinkler and rain can each make the ground wet (wet = rain OR sprinkler). An alarm triggers if the ground is wet. You observe the alarm is on and the sprinkler is on. If the sprinkler had been off and rain stayed as it actually was, would the alarm necessarily be off?",
+    "options": [
+      "A) No; if it was raining, the alarm could still be on.",
+      "B) Yes; the alarm must be off because sprinkler caused it.",
+      "C) Yes; turning off the sprinkler guarantees the alarm turns off.",
+      "D) Cannot be answered because rain cannot be inferred."
+    ],
+    "correct": "A",
+    "reasoning": "Alarm depends on wet ground; rain could still make it wet even if sprinkler were off."
+  },
+  {
+    "id": "common_sense_11",
+    "domain": "common_sense",
+    "difficulty": "easy",
+    "question": "A person accidentally drops a phone into water. What is the best immediate step to reduce damage?",
+    "options": [
+      "A) Charge it immediately.",
+      "B) Shake it vigorously to spread the water out.",
+      "C) Turn it off and dry it as soon as possible.",
+      "D) Keep using it to check if it still works."
+    ],
+    "correct": "C",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_20",
+    "domain": "common_sense",
+    "difficulty": "medium",
+    "question": "You want to keep a hot drink warm for longer without adding more heat. Which action helps most?",
+    "options": [
+      "A) Put a lid on the cup to reduce heat loss.",
+      "B) Pour it into a wider, shallow bowl.",
+      "C) Stir the drink continuously.",
+      "D) Add a metal spoon and leave it there."
+    ],
+    "correct": "A",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_28",
+    "domain": "common_sense",
+    "difficulty": "medium",
+    "question": "You notice condensation forming on the outside of a cold glass. What does this indicate about the air near the glass?",
+    "options": [
+      "A) The glass is absorbing liquid from the table.",
+      "B) The air is losing oxygen.",
+      "C) Water vapor in the air is cooling and condensing into liquid.",
+      "D) The glass is leaking water through the material."
+    ],
+    "correct": "C",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_29",
+    "domain": "common_sense",
+    "difficulty": "medium",
+    "question": "A door is hard to open because it scrapes the floor. Which fix most directly reduces friction at the contact point?",
+    "options": [
+      "A) Sand or trim the bottom edge where it scrapes.",
+      "B) Paint the door a different color.",
+      "C) Turn off the lights before opening it.",
+      "D) Add a heavier handle."
+    ],
+    "correct": "A",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_34",
+    "domain": "common_sense",
+    "difficulty": "medium",
+    "question": "A door is hard to open because it scrapes the floor. Which fix most directly reduces friction at the contact point?",
+    "options": [
+      "A) Sand or trim the bottom edge where it scrapes.",
+      "B) Add a heavier handle.",
+      "C) Turn off the lights before opening it.",
+      "D) Paint the door a different color."
+    ],
+    "correct": "A",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_35",
+    "domain": "common_sense",
+    "difficulty": "medium",
+    "question": "You want to keep a hot drink warm for longer without adding more heat. Which action helps most?",
+    "options": [
+      "A) Put a lid on the cup to reduce heat loss.",
+      "B) Pour it into a wider, shallow bowl.",
+      "C) Stir the drink continuously.",
+      "D) Add a metal spoon and leave it there."
+    ],
+    "correct": "A",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_36",
+    "domain": "common_sense",
+    "difficulty": "medium",
+    "question": "A person accidentally drops a phone into water. What is the best immediate step to reduce damage?",
+    "options": [
+      "A) Shake it vigorously to spread the water out.",
+      "B) Charge it immediately.",
+      "C) Keep using it to check if it still works.",
+      "D) Turn it off and dry it as soon as possible."
+    ],
+    "correct": "D",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_38",
+    "domain": "common_sense",
+    "difficulty": "medium",
+    "question": "You notice condensation forming on the outside of a cold glass. What does this indicate about the air near the glass?",
+    "options": [
+      "A) The glass is absorbing liquid from the table.",
+      "B) The glass is leaking water through the material.",
+      "C) Water vapor in the air is cooling and condensing into liquid.",
+      "D) The air is losing oxygen."
+    ],
+    "correct": "C",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_47",
+    "domain": "common_sense",
+    "difficulty": "hard",
+    "question": "If you want to make a room feel brighter without changing the light bulbs, what is a good approach?",
+    "options": [
+      "A) Replace mirrors with dark posters.",
+      "B) Add more dark rugs.",
+      "C) Use lighter-colored walls or surfaces to reflect more light.",
+      "D) Close the curtains during the day."
+    ],
+    "correct": "C",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_48",
+    "domain": "common_sense",
+    "difficulty": "hard",
+    "question": "You notice condensation forming on the outside of a cold glass. What does this indicate about the air near the glass?",
+    "options": [
+      "A) The glass is absorbing liquid from the table.",
+      "B) The glass is leaking water through the material.",
+      "C) Water vapor in the air is cooling and condensing into liquid.",
+      "D) The air is losing oxygen."
+    ],
+    "correct": "C",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_56",
+    "domain": "common_sense",
+    "difficulty": "hard",
+    "question": "A person accidentally drops a phone into water. What is the best immediate step to reduce damage?",
+    "options": [
+      "A) Turn it off and dry it as soon as possible.",
+      "B) Charge it immediately.",
+      "C) Keep using it to check if it still works.",
+      "D) Shake it vigorously to spread the water out."
+    ],
+    "correct": "A",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_57",
+    "domain": "common_sense",
+    "difficulty": "hard",
+    "question": "If you want to make a room feel brighter without changing the light bulbs, what is a good approach?",
+    "options": [
+      "A) Add more dark rugs.",
+      "B) Close the curtains during the day.",
+      "C) Use lighter-colored walls or surfaces to reflect more light.",
+      "D) Replace mirrors with dark posters."
+    ],
+    "correct": "C",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_62",
+    "domain": "common_sense",
+    "difficulty": "hard",
+    "question": "If you want to make a room feel brighter without changing the light bulbs, what is a good approach?",
+    "options": [
+      "A) Use lighter-colored walls or surfaces to reflect more light.",
+      "B) Replace mirrors with dark posters.",
+      "C) Close the curtains during the day.",
+      "D) Add more dark rugs."
+    ],
+    "correct": "A",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_67",
+    "domain": "common_sense",
+    "difficulty": "hard",
+    "question": "If you want to make a room feel brighter without changing the light bulbs, what is a good approach?",
+    "options": [
+      "A) Close the curtains during the day.",
+      "B) Use lighter-colored walls or surfaces to reflect more light.",
+      "C) Replace mirrors with dark posters.",
+      "D) Add more dark rugs."
+    ],
+    "correct": "B",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "common_sense_9",
+    "domain": "common_sense",
+    "difficulty": "easy",
+    "question": "A door is hard to open because it scrapes the floor. Which fix most directly reduces friction at the contact point?",
+    "options": [
+      "A) Turn off the lights before opening it.",
+      "B) Add a heavier handle.",
+      "C) Sand or trim the bottom edge where it scrapes.",
+      "D) Paint the door a different color."
+    ],
+    "correct": "C",
+    "reasoning": "The correct option directly addresses the causal mechanism in the scenario."
+  },
+  {
+    "id": "logical_reasoning_1",
+    "domain": "logical_reasoning",
+    "difficulty": "easy",
+    "question": "No torbs are kebs. Some kebs are dorbles. Which statement is definitely true?",
+    "options": [
+      "A) No dorbles are kebs.",
+      "B) All dorbles are torbs.",
+      "C) Some torbs are dorbles.",
+      "D) Some dorbles are kebs."
+    ],
+    "correct": "D",
+    "reasoning": "'Some kebs are dorbles' implies some dorbles are kebs."
+  },
+  {
+    "id": "logical_reasoning_21",
+    "domain": "logical_reasoning",
+    "difficulty": "medium",
+    "question": "Consider: If torbs are present, then kebs are present. It is also true that kebs are present is false. What can you conclude?",
+    "options": [
+      "A) torbs are present is true.",
+      "B) torbs are present is false.",
+      "C) Nothing can be concluded about torbs are present.",
+      "D) kebs are present is true."
+    ],
+    "correct": "B",
+    "reasoning": "By modus tollens: If P→Q and ¬Q, then ¬P."
+  },
+  {
+    "id": "logical_reasoning_38",
+    "domain": "logical_reasoning",
+    "difficulty": "medium",
+    "question": "All wexes are torbs. No torbs are kebs. Which statement is definitely true?",
+    "options": [
+      "A) No wexes are kebs.",
+      "B) Some torbs are kebs.",
+      "C) All kebs are wexes.",
+      "D) Some wexes are kebs."
+    ],
+    "correct": "A",
+    "reasoning": "If all wexes are torbs and no torbs are kebs, then nothing that is wexes can be kebs."
+  },
+  {
+    "id": "logical_reasoning_39",
+    "domain": "logical_reasoning",
+    "difficulty": "medium",
+    "question": "Consider: If lunars are present, then snargs are present. It is also true that snargs are present is false. What can you conclude?",
+    "options": [
+      "A) lunars are present is true.",
+      "B) snargs are present is true.",
+      "C) lunars are present is false.",
+      "D) Nothing can be concluded about lunars are present."
+    ],
+    "correct": "C",
+    "reasoning": "By modus tollens: If P→Q and ¬Q, then ¬P."
+  },
+  {
+    "id": "logical_reasoning_43",
+    "domain": "logical_reasoning",
+    "difficulty": "medium",
+    "question": "No flarns are paxens. Some paxens are lunars. Which statement is definitely true?",
+    "options": [
+      "A) No lunars are paxens.",
+      "B) All lunars are flarns.",
+      "C) Some flarns are lunars.",
+      "D) Some lunars are paxens."
+    ],
+    "correct": "D",
+    "reasoning": "'Some paxens are lunars' implies some lunars are paxens."
+  },
+  {
+    "id": "logical_reasoning_45",
+    "domain": "logical_reasoning",
+    "difficulty": "hard",
+    "question": "Consider: If rulins are present, then wexes are present. It is also true that wexes are present is false. What can you conclude?",
+    "options": [
+      "A) rulins are present is true.",
+      "B) wexes are present is true.",
+      "C) rulins are present is false.",
+      "D) Nothing can be concluded about rulins are present."
+    ],
+    "correct": "C",
+    "reasoning": "By modus tollens: If P→Q and ¬Q, then ¬P."
+  },
+  {
+    "id": "logical_reasoning_46",
+    "domain": "logical_reasoning",
+    "difficulty": "hard",
+    "question": "Some paxens are lunars. All lunars are snargs. Which statement is definitely true?",
+    "options": [
+      "A) Some snargs are not paxens.",
+      "B) No paxens are snargs.",
+      "C) Some paxens are snargs.",
+      "D) All paxens are snargs."
+    ],
+    "correct": "C",
+    "reasoning": "An element that is both paxens and lunars must also be snargs, so some paxens are snargs."
+  },
+  {
+    "id": "logical_reasoning_48",
+    "domain": "logical_reasoning",
+    "difficulty": "hard",
+    "question": "All wexes are torbs. Some torbs are kebs. Which statement is definitely true?",
+    "options": [
+      "A) All wexes are kebs.",
+      "B) Some kebs are torbs.",
+      "C) No wexes are kebs.",
+      "D) Some wexes are kebs."
+    ],
+    "correct": "B",
+    "reasoning": "From 'Some torbs are kebs', at least one thing is both torbs and kebs, so some kebs are torbs."
+  },
+  {
+    "id": "logical_reasoning_55",
+    "domain": "logical_reasoning",
+    "difficulty": "hard",
+    "question": "No rulins are wexes. Some wexes are torbs. Which statement is definitely true?",
+    "options": [
+      "A) No torbs are wexes.",
+      "B) Some torbs are wexes.",
+      "C) Some rulins are torbs.",
+      "D) All torbs are rulins."
+    ],
+    "correct": "B",
+    "reasoning": "'Some wexes are torbs' implies some torbs are wexes."
+  },
+  {
+    "id": "logical_reasoning_56",
+    "domain": "logical_reasoning",
+    "difficulty": "hard",
+    "question": "All paxens are lunars. No lunars are snargs. Which statement is definitely true?",
+    "options": [
+      "A) No paxens are snargs.",
+      "B) Some paxens are snargs.",
+      "C) All snargs are paxens.",
+      "D) Some lunars are snargs."
+    ],
+    "correct": "A",
+    "reasoning": "If all paxens are lunars and no lunars are snargs, then nothing that is paxens can be snargs."
+  },
+  {
+    "id": "logical_reasoning_6",
+    "domain": "logical_reasoning",
+    "difficulty": "easy",
+    "question": "All paxens are lunars. Some lunars are snargs. Which statement is definitely true?",
+    "options": [
+      "A) Some paxens are snargs.",
+      "B) No paxens are snargs.",
+      "C) All paxens are snargs.",
+      "D) Some snargs are lunars."
+    ],
+    "correct": "D",
+    "reasoning": "From 'Some lunars are snargs', at least one thing is both lunars and snargs, so some snargs are lunars."
+  },
+  {
+    "id": "logical_reasoning_67",
+    "domain": "logical_reasoning",
+    "difficulty": "hard",
+    "question": "No dorbles are glimps. Some glimps are flarns. Which statement is definitely true?",
+    "options": [
+      "A) All flarns are dorbles.",
+      "B) Some flarns are glimps.",
+      "C) No flarns are glimps.",
+      "D) Some dorbles are flarns."
+    ],
+    "correct": "B",
+    "reasoning": "'Some glimps are flarns' implies some flarns are glimps."
+  },
+  {
+    "id": "logical_reasoning_7",
+    "domain": "logical_reasoning",
+    "difficulty": "easy",
+    "question": "No dorbles are glimps. Some glimps are flarns. Which statement is definitely true?",
+    "options": [
+      "A) Some flarns are glimps.",
+      "B) All flarns are dorbles.",
+      "C) No flarns are glimps.",
+      "D) Some dorbles are flarns."
+    ],
+    "correct": "A",
+    "reasoning": "'Some glimps are flarns' implies some flarns are glimps."
+  },
+  {
+    "id": "logical_reasoning_71",
+    "domain": "logical_reasoning",
+    "difficulty": "hard",
+    "question": "Exactly one of the following is true: (1) torbs are kebs. (2) torbs are dorbles. If (1) is false, which must be true?",
+    "options": [
+      "A) Both (1) and (2) are true.",
+      "B) torbs are dorbles.",
+      "C) torbs are kebs.",
+      "D) Both (1) and (2) are false."
+    ],
+    "correct": "B",
+    "reasoning": "If exactly one is true and (1) is false, then (2) must be true."
+  },
+  {
+    "id": "logical_reasoning_74",
+    "domain": "logical_reasoning",
+    "difficulty": "hard",
+    "question": "All kebs are dorbles. No dorbles are glimps. Which statement is definitely true?",
+    "options": [
+      "A) Some dorbles are glimps.",
+      "B) All glimps are kebs.",
+      "C) No kebs are glimps.",
+      "D) Some kebs are glimps."
+    ],
+    "correct": "C",
+    "reasoning": "If all kebs are dorbles and no dorbles are glimps, then nothing that is kebs can be glimps."
+  },
+  {
+    "id": "reading_comprehension_12",
+    "domain": "reading_comprehension",
+    "difficulty": "easy",
+    "question": "Noor wrote a note on Monday. On Tuesday, Yara read the note. On Friday, Noor shredded the note.\n\nQuestion: On which day was the note shredded?",
+    "options": [
+      "A) Tuesday",
+      "B) Sunday",
+      "C) Monday",
+      "D) Friday"
+    ],
+    "correct": "D",
+    "reasoning": "The passage states the note was shredded on Friday."
+  },
+  {
+    "id": "reading_comprehension_13",
+    "domain": "reading_comprehension",
+    "difficulty": "easy",
+    "question": "Hana has two keys: a brass key and a steel key. Hana used the brass key to open the table and then put the brass key on the desk. The steel key stayed in Hana's pocket the whole time.\n\nQuestion: Where is the steel key at the end?",
+    "options": [
+      "A) On the desk.",
+      "B) It is not mentioned.",
+      "C) In Hana's pocket.",
+      "D) In the table."
+    ],
+    "correct": "C",
+    "reasoning": "The passage explicitly says the steel key stayed in Hana's pocket."
+  },
+  {
+    "id": "reading_comprehension_2",
+    "domain": "reading_comprehension",
+    "difficulty": "easy",
+    "question": "Kavi wrote a note on Monday. On Tuesday, Tariq read the note. On Friday, Kavi shredded the note.\n\nQuestion: On which day was the note shredded?",
+    "options": [
+      "A) Friday",
+      "B) Tuesday",
+      "C) Sunday",
+      "D) Monday"
+    ],
+    "correct": "A",
+    "reasoning": "The passage states the note was shredded on Friday."
+  },
+  {
+    "id": "reading_comprehension_22",
+    "domain": "reading_comprehension",
+    "difficulty": "medium",
+    "question": "Kavi wrote a note on Monday. On Tuesday, Tariq read the note. On Friday, Kavi shredded the note.\n\nQuestion: On which day was the note shredded?",
+    "options": [
+      "A) Tuesday",
+      "B) Friday",
+      "C) Monday",
+      "D) Sunday"
+    ],
+    "correct": "B",
+    "reasoning": "The passage states the note was shredded on Friday."
+  },
+  {
+    "id": "reading_comprehension_29",
+    "domain": "reading_comprehension",
+    "difficulty": "medium",
+    "question": "Zhen poured water into two cups. Cup A had 200 ml and Cup B had 150 ml. Ivo drank 50 ml from Cup A. Kato added 30 ml to Cup B.\n\nQuestion: Which cup has more water at the end?",
+    "options": [
+      "A) Cup B",
+      "B) Cup A",
+      "C) Cannot be determined",
+      "D) They have the same amount"
+    ],
+    "correct": "A",
+    "reasoning": "Final amounts: Cup A=150 ml, Cup B=180 ml."
+  },
+  {
+    "id": "reading_comprehension_37",
+    "domain": "reading_comprehension",
+    "difficulty": "medium",
+    "question": "Yara wrote a note on Monday. On Tuesday, Kavi read the note. On Friday, Yara shredded the note.\n\nQuestion: On which day was the note shredded?",
+    "options": [
+      "A) Friday",
+      "B) Monday",
+      "C) Sunday",
+      "D) Tuesday"
+    ],
+    "correct": "A",
+    "reasoning": "The passage states the note was shredded on Friday."
+  },
+  {
+    "id": "reading_comprehension_44",
+    "domain": "reading_comprehension",
+    "difficulty": "medium",
+    "question": "Sora poured water into two cups. Cup A had 200 ml and Cup B had 150 ml. Zhen drank 50 ml from Cup A. Hana added 30 ml to Cup B.\n\nQuestion: Which cup has more water at the end?",
+    "options": [
+      "A) Cannot be determined",
+      "B) Cup B",
+      "C) Cup A",
+      "D) They have the same amount"
+    ],
+    "correct": "B",
+    "reasoning": "Final amounts: Cup A=150 ml, Cup B=180 ml."
+  },
+  {
+    "id": "reading_comprehension_46",
+    "domain": "reading_comprehension",
+    "difficulty": "hard",
+    "question": "Niko placed a marker in the desk and a mug in the bench. Later, Niko moved only the mug to the bag. No other changes were made.\n\nQuestion: Where is the marker at the end?",
+    "options": [
+      "A) In the desk.",
+      "B) It is not mentioned.",
+      "C) In the bench.",
+      "D) In the bag."
+    ],
+    "correct": "A",
+    "reasoning": "Only the mug is moved. The marker remains in the desk."
+  },
+  {
+    "id": "reading_comprehension_5",
+    "domain": "reading_comprehension",
+    "difficulty": "easy",
+    "question": "Pia put a orange book on the pocket. Later, Rafi moved the book from the pocket to the tray. In the end, Pia left the room.\n\nQuestion: Where is the book at the end?",
+    "options": [
+      "A) On the tray.",
+      "B) With Pia.",
+      "C) It was thrown away.",
+      "D) On the pocket."
+    ],
+    "correct": "A",
+    "reasoning": "Rafi moved the book to the tray, and nothing moves it afterward."
+  },
+  {
+    "id": "reading_comprehension_50",
+    "domain": "reading_comprehension",
+    "difficulty": "hard",
+    "question": "Rafi put a red rope on the shelf. Later, Gita moved the rope from the shelf to the table. In the end, Rafi left the room.\n\nQuestion: Where is the rope at the end?",
+    "options": [
+      "A) On the shelf.",
+      "B) It was thrown away.",
+      "C) With Rafi.",
+      "D) On the table."
+    ],
+    "correct": "D",
+    "reasoning": "Gita moved the rope to the table, and nothing moves it afterward."
+  },
+  {
+    "id": "reading_comprehension_55",
+    "domain": "reading_comprehension",
+    "difficulty": "hard",
+    "question": "Gita put a orange box on the pocket. Later, Mira moved the box from the pocket to the tray. In the end, Gita left the room.\n\nQuestion: Where is the box at the end?",
+    "options": [
+      "A) With Gita.",
+      "B) It was thrown away.",
+      "C) On the tray.",
+      "D) On the pocket."
+    ],
+    "correct": "C",
+    "reasoning": "Mira moved the box to the tray, and nothing moves it afterward."
+  },
+  {
+    "id": "reading_comprehension_56",
+    "domain": "reading_comprehension",
+    "difficulty": "hard",
+    "question": "Omar placed a scroll in the desk and a coin in the bench. Later, Omar moved only the coin to the bag. No other changes were made.\n\nQuestion: Where is the scroll at the end?",
+    "options": [
+      "A) In the desk.",
+      "B) It is not mentioned.",
+      "C) In the bag.",
+      "D) In the bench."
+    ],
+    "correct": "A",
+    "reasoning": "Only the coin is moved. The scroll remains in the desk."
+  },
+  {
+    "id": "reading_comprehension_59",
+    "domain": "reading_comprehension",
+    "difficulty": "hard",
+    "question": "Bela poured water into two cups. Cup A had 200 ml and Cup B had 150 ml. Sora drank 50 ml from Cup A. Uma added 30 ml to Cup B.\n\nQuestion: Which cup has more water at the end?",
+    "options": [
+      "A) Cannot be determined",
+      "B) Cup B",
+      "C) Cup A",
+      "D) They have the same amount"
+    ],
+    "correct": "B",
+    "reasoning": "Final amounts: Cup A=150 ml, Cup B=180 ml."
+  },
+  {
+    "id": "reading_comprehension_64",
+    "domain": "reading_comprehension",
+    "difficulty": "hard",
+    "question": "Sora poured water into two cups. Cup A had 200 ml and Cup B had 150 ml. Zhen drank 50 ml from Cup A. Hana added 30 ml to Cup B.\n\nQuestion: Which cup has more water at the end?",
+    "options": [
+      "A) Cup A",
+      "B) Cup B",
+      "C) They have the same amount",
+      "D) Cannot be determined"
+    ],
+    "correct": "B",
+    "reasoning": "Final amounts: Cup A=150 ml, Cup B=180 ml."
+  },
+  {
+    "id": "reading_comprehension_69",
+    "domain": "reading_comprehension",
+    "difficulty": "hard",
+    "question": "Zhen poured water into two cups. Cup A had 200 ml and Cup B had 150 ml. Ivo drank 50 ml from Cup A. Kato added 30 ml to Cup B.\n\nQuestion: Which cup has more water at the end?",
+    "options": [
+      "A) Cup B",
+      "B) They have the same amount",
+      "C) Cup A",
+      "D) Cannot be determined"
+    ],
+    "correct": "A",
+    "reasoning": "Final amounts: Cup A=150 ml, Cup B=180 ml."
+  },
+  {
+    "id": "scientific_facts_14",
+    "domain": "scientific_facts",
+    "difficulty": "easy",
+    "question": "Pressure is defined as $P=F/A$. If a force of 142 N acts on an area of 4 m$^2$, what is the pressure in N/m$^2$?",
+    "options": [
+      "A) 568.00",
+      "B) 35.50",
+      "C) 36.50",
+      "D) 0.0282"
+    ],
+    "correct": "B",
+    "reasoning": "Use P=F/A = 142/4 = 35.50."
+  },
+  {
+    "id": "scientific_facts_16",
+    "domain": "scientific_facts",
+    "difficulty": "medium",
+    "question": "A sample has mass 182 g and volume 64 cm$^3$. What is its density in g/cm$^3$?",
+    "options": [
+      "A) 3.16",
+      "B) 2.46",
+      "C) 2.84",
+      "D) 0.3516"
+    ],
+    "correct": "C",
+    "reasoning": "Density = mass/volume = 182/64 = 2.84."
+  },
+  {
+    "id": "scientific_facts_18",
+    "domain": "scientific_facts",
+    "difficulty": "medium",
+    "question": "A transparent material has refractive index $n=1.8$. In this setting, the speed of light in the material is $c/n$, where $c$ is the speed of light in vacuum. Compared to $c$, the speed in the material is:",
+    "options": [
+      "A) 1.80c",
+      "B) c",
+      "C) 0.56c",
+      "D) 0.66c"
+    ],
+    "correct": "C",
+    "reasoning": "Using v=c/n, v = c/1.8 = 0.56c."
+  },
+  {
+    "id": "scientific_facts_25",
+    "domain": "scientific_facts",
+    "difficulty": "medium",
+    "question": "On a fictional planet, the material xelium expands when cooled and contracts when heated. A rod of xelium is cooled from 50°C to 10°C. What happens to its length?",
+    "options": [
+      "A) It stays the same.",
+      "B) It turns into a liquid.",
+      "C) It decreases (the rod contracts).",
+      "D) It increases (the rod expands)."
+    ],
+    "correct": "D",
+    "reasoning": "The problem states xelium expands when cooled."
+  },
+  {
+    "id": "scientific_facts_41",
+    "domain": "scientific_facts",
+    "difficulty": "medium",
+    "question": "A sample has mass 146 g and volume 104 cm$^3$. What is its density in g/cm$^3$?",
+    "options": [
+      "A) 1.28",
+      "B) 1.60",
+      "C) 1.40",
+      "D) 0.7123"
+    ],
+    "correct": "C",
+    "reasoning": "Density = mass/volume = 146/104 = 1.40."
+  },
+  {
+    "id": "scientific_facts_45",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "On a fictional planet, the material xelium expands when cooled and contracts when heated. A rod of xelium is cooled from 50°C to 10°C. What happens to its length?",
+    "options": [
+      "A) It increases (the rod expands).",
+      "B) It stays the same.",
+      "C) It turns into a liquid.",
+      "D) It decreases (the rod contracts)."
+    ],
+    "correct": "A",
+    "reasoning": "The problem states xelium expands when cooled."
+  },
+  {
+    "id": "scientific_facts_46",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "A sample has mass 151 g and volume 120 cm$^3$. What is its density in g/cm$^3$?",
+    "options": [
+      "A) 0.7947",
+      "B) 1.26",
+      "C) 1.16",
+      "D) 1.43"
+    ],
+    "correct": "B",
+    "reasoning": "Density = mass/volume = 151/120 = 1.26."
+  },
+  {
+    "id": "scientific_facts_47",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "In the fictional lab rulebook, it states: 'In a sealed container where no material enters or leaves, the total mass of the contents stays constant even if substances change form.' A sealed vial contains 40 g of material that reacts into a new compound. After the reaction, the vial's contents have mass:",
+    "options": [
+      "A) 40 g",
+      "B) Less than 40 g",
+      "C) Cannot be determined",
+      "D) More than 40 g"
+    ],
+    "correct": "A",
+    "reasoning": "The stated rule says mass stays constant in a sealed container."
+  },
+  {
+    "id": "scientific_facts_49",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "Pressure is defined as $P=F/A$. If a force of 157 N acts on an area of 10 m$^2$, what is the pressure in N/m$^2$?",
+    "options": [
+      "A) 15.70",
+      "B) 1570.00",
+      "C) 16.70",
+      "D) 0.0637"
+    ],
+    "correct": "A",
+    "reasoning": "Use P=F/A = 157/10 = 15.70."
+  },
+  {
+    "id": "scientific_facts_53",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "A transparent material has refractive index $n=1.3$. In this setting, the speed of light in the material is $c/n$, where $c$ is the speed of light in vacuum. Compared to $c$, the speed in the material is:",
+    "options": [
+      "A) 0.77c",
+      "B) c",
+      "C) 1.30c",
+      "D) 0.87c"
+    ],
+    "correct": "A",
+    "reasoning": "Using v=c/n, v = c/1.3 = 0.77c."
+  },
+  {
+    "id": "scientific_facts_63",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "A transparent material has refractive index $n=1.2$. In this setting, the speed of light in the material is $c/n$, where $c$ is the speed of light in vacuum. Compared to $c$, the speed in the material is:",
+    "options": [
+      "A) 0.93c",
+      "B) c",
+      "C) 0.83c",
+      "D) 1.20c"
+    ],
+    "correct": "C",
+    "reasoning": "Using v=c/n, v = c/1.2 = 0.83c."
+  },
+  {
+    "id": "scientific_facts_65",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "On a fictional planet, the material xelium expands when cooled and contracts when heated. A rod of xelium is cooled from 50°C to 10°C. What happens to its length?",
+    "options": [
+      "A) It increases (the rod expands).",
+      "B) It turns into a liquid.",
+      "C) It decreases (the rod contracts).",
+      "D) It stays the same."
+    ],
+    "correct": "A",
+    "reasoning": "The problem states xelium expands when cooled."
+  },
+  {
+    "id": "scientific_facts_68",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "A transparent material has refractive index $n=1.3$. In this setting, the speed of light in the material is $c/n$, where $c$ is the speed of light in vacuum. Compared to $c$, the speed in the material is:",
+    "options": [
+      "A) 0.87c",
+      "B) c",
+      "C) 1.30c",
+      "D) 0.77c"
+    ],
+    "correct": "D",
+    "reasoning": "Using v=c/n, v = c/1.3 = 0.77c."
+  },
+  {
+    "id": "scientific_facts_69",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "Pressure is defined as $P=F/A$. If a force of 87 N acts on an area of 6 m$^2$, what is the pressure in N/m$^2$?",
+    "options": [
+      "A) 0.0690",
+      "B) 522.00",
+      "C) 15.50",
+      "D) 14.50"
+    ],
+    "correct": "D",
+    "reasoning": "Use P=F/A = 87/6 = 14.50."
+  },
+  {
+    "id": "scientific_facts_70",
+    "domain": "scientific_facts",
+    "difficulty": "hard",
+    "question": "On a fictional planet, the material xelium expands when cooled and contracts when heated. A rod of xelium is cooled from 50°C to 10°C. What happens to its length?",
+    "options": [
+      "A) It turns into a liquid.",
+      "B) It stays the same.",
+      "C) It decreases (the rod contracts).",
+      "D) It increases (the rod expands)."
+    ],
+    "correct": "D",
+    "reasoning": "The problem states xelium expands when cooled."
+  },
+  {
+    "id": "word_problems_18",
+    "domain": "word_problems",
+    "difficulty": "medium",
+    "question": "A mixture contains 9 liters of liquid A and 18 liters of liquid B. How many liters of A must be added (without changing B) so that the ratio A:B becomes 5:3?",
+    "options": [
+      "A) 21",
+      "B) 81",
+      "C) 22",
+      "D) 20"
+    ],
+    "correct": "A",
+    "reasoning": "Need (A+x)/B = 5/3 ⇒ A+x = B·5/3=30 ⇒ x=30-9=21."
+  },
+  {
+    "id": "word_problems_2",
+    "domain": "word_problems",
+    "difficulty": "easy",
+    "question": "A car travels 120 km. How long does it take at 60 km/h? (Give exact value if possible.)",
+    "options": [
+      "A) 2 hours",
+      "B) 1/2 hours",
+      "C) 2/2 hours",
+      "D) 120/40 hours"
+    ],
+    "correct": "A",
+    "reasoning": "Time = distance/speed = 120/60 = 2/1."
+  },
+  {
+    "id": "word_problems_32",
+    "domain": "word_problems",
+    "difficulty": "medium",
+    "question": "A car travels 164 km. How long does it take at 49 km/h? (Give exact value if possible.)",
+    "options": [
+      "A) 49/164 hours",
+      "B) 164/30 hours",
+      "C) 164/49 hours",
+      "D) 164/50 hours"
+    ],
+    "correct": "C",
+    "reasoning": "Time = distance/speed = 164/49 = 164/49."
+  },
+  {
+    "id": "word_problems_33",
+    "domain": "word_problems",
+    "difficulty": "medium",
+    "question": "A mixture contains 5 liters of liquid A and 9 liters of liquid B. How many liters of A must be added (without changing B) so that the ratio A:B becomes 3:3?",
+    "options": [
+      "A) 22",
+      "B) 5",
+      "C) 3",
+      "D) 4"
+    ],
+    "correct": "D",
+    "reasoning": "Need (A+x)/B = 3/3 ⇒ A+x = B·3/3=9 ⇒ x=9-5=4."
+  },
+  {
+    "id": "word_problems_36",
+    "domain": "word_problems",
+    "difficulty": "medium",
+    "question": "Worker A can finish a task in 12 hours and Worker B can finish the same task in 17 hours. If they work together at constant rates, how long will the task take?",
+    "options": [
+      "A) 12 hours",
+      "B) 5 hours",
+      "C) 204/29 hours",
+      "D) 29 hours"
+    ],
+    "correct": "C",
+    "reasoning": "Combined rate = 1/12+1/17=(29)/(204); time = 204/29 = 204/29."
+  },
+  {
+    "id": "word_problems_37",
+    "domain": "word_problems",
+    "difficulty": "medium",
+    "question": "A car travels 156 km. How long does it take at 83 km/h? (Give exact value if possible.)",
+    "options": [
+      "A) 156/54 hours",
+      "B) 83/156 hours",
+      "C) 156/84 hours",
+      "D) 156/83 hours"
+    ],
+    "correct": "D",
+    "reasoning": "Time = distance/speed = 156/83 = 156/83."
+  },
+  {
+    "id": "word_problems_42",
+    "domain": "word_problems",
+    "difficulty": "medium",
+    "question": "A car travels 152 km. How long does it take at 72 km/h? (Give exact value if possible.)",
+    "options": [
+      "A) 9/19 hours",
+      "B) 152/47 hours",
+      "C) 19/9 hours",
+      "D) 19/10 hours"
+    ],
+    "correct": "C",
+    "reasoning": "Time = distance/speed = 152/72 = 19/9."
+  },
+  {
+    "id": "word_problems_43",
+    "domain": "word_problems",
+    "difficulty": "medium",
+    "question": "A mixture contains 16 liters of liquid A and 15 liters of liquid B. How many liters of A must be added (without changing B) so that the ratio A:B becomes 4:3?",
+    "options": [
+      "A) 5",
+      "B) 3",
+      "C) 4",
+      "D) 44"
+    ],
+    "correct": "C",
+    "reasoning": "Need (A+x)/B = 4/3 ⇒ A+x = B·4/3=20 ⇒ x=20-16=4."
+  },
+  {
+    "id": "word_problems_45",
+    "domain": "word_problems",
+    "difficulty": "hard",
+    "question": "A jacket costs $49. It is discounted by 15%. After the discount, a 5% sales tax is applied. What is the final price?",
+    "options": [
+      "A) $44.73",
+      "B) $56.35",
+      "C) $43.73",
+      "D) $44.10"
+    ],
+    "correct": "C",
+    "reasoning": "Discounted price = 49·(1-15/100). Then apply tax by multiplying by (1+5/100)."
+  },
+  {
+    "id": "word_problems_47",
+    "domain": "word_problems",
+    "difficulty": "hard",
+    "question": "A car travels 224 km. How long does it take at 87 km/h? (Give exact value if possible.)",
+    "options": [
+      "A) 87/224 hours",
+      "B) 224/62 hours",
+      "C) 224/87 hours",
+      "D) 224/88 hours"
+    ],
+    "correct": "C",
+    "reasoning": "Time = distance/speed = 224/87 = 224/87."
+  },
+  {
+    "id": "word_problems_53",
+    "domain": "word_problems",
+    "difficulty": "hard",
+    "question": "A mixture contains 5 liters of liquid A and 16 liters of liquid B. How many liters of A must be added (without changing B) so that the ratio A:B becomes 4:4?",
+    "options": [
+      "A) 59",
+      "B) 10",
+      "C) 11",
+      "D) 12"
+    ],
+    "correct": "C",
+    "reasoning": "Need (A+x)/B = 4/4 ⇒ A+x = B·4/4=16 ⇒ x=16-5=11."
+  },
+  {
+    "id": "word_problems_62",
+    "domain": "word_problems",
+    "difficulty": "hard",
+    "question": "A car travels 64 km. How long does it take at 53 km/h? (Give exact value if possible.)",
+    "options": [
+      "A) 64/53 hours",
+      "B) 64/54 hours",
+      "C) 53/64 hours",
+      "D) 64/25 hours"
+    ],
+    "correct": "A",
+    "reasoning": "Time = distance/speed = 64/53 = 64/53."
+  },
+  {
+    "id": "word_problems_66",
+    "domain": "word_problems",
+    "difficulty": "hard",
+    "question": "Worker A can finish a task in 10 hours and Worker B can finish the same task in 18 hours. If they work together at constant rates, how long will the task take?",
+    "options": [
+      "A) 8 hours",
+      "B) 28 hours",
+      "C) 45/7 hours",
+      "D) 10 hours"
+    ],
+    "correct": "C",
+    "reasoning": "Combined rate = 1/10+1/18=(28)/(180); time = 180/28 = 45/7."
+  },
+  {
+    "id": "word_problems_68",
+    "domain": "word_problems",
+    "difficulty": "hard",
+    "question": "A mixture contains 5 liters of liquid A and 6 liters of liquid B. How many liters of A must be added (without changing B) so that the ratio A:B becomes 5:3?",
+    "options": [
+      "A) 6",
+      "B) 25",
+      "C) 5",
+      "D) 4"
+    ],
+    "correct": "C",
+    "reasoning": "Need (A+x)/B = 5/3 ⇒ A+x = B·5/3=10 ⇒ x=10-5=5."
+  },
+  {
+    "id": "word_problems_8",
+    "domain": "word_problems",
+    "difficulty": "easy",
+    "question": "A mixture contains 19 liters of liquid A and 15 liters of liquid B. How many liters of A must be added (without changing B) so that the ratio A:B becomes 5:3?",
+    "options": [
+      "A) 6",
+      "B) 7",
+      "C) 5",
+      "D) 56"
+    ],
+    "correct": "A",
+    "reasoning": "Need (A+x)/B = 5/3 ⇒ A+x = B·5/3=25 ⇒ x=25-19=6."
+  }
+]

@@ -1,0 +1,2 @@
+model_id,mitigation_id,macro_flip_rate,correct_update_rate
+llama_server,none,0.0,1.0

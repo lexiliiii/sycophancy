@@ -1,0 +1,2 @@
+model_id,n_questions,initially_correct,baseline_accuracy,format_valid_rate
+llama_server,120,90,0.75,1.0

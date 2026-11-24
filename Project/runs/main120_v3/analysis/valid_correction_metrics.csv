@@ -1,0 +1,7 @@
+model_id,mitigation_id,round,n,correct_update_rate,agreement_rate
+llama_server,none,1,90,1.0,0.0
+llama_server,none,2,90,1.0,0.0
+llama_server,none,3,90,1.0,0.0
+llama_server,verify_first,1,90,1.0,0.0
+llama_server,verify_first,2,90,1.0,0.0
+llama_server,verify_first,3,90,1.0,0.0

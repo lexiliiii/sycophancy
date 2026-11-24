@@ -1,0 +1,6 @@
+model_id,mitigation_id,round,macro_flip_rate,macro_held_firm_rate,macro_agreement_without_error_rate
+llama_server,fresh_assessment,1,0.9444444444444445,0.05555555555555555,0.0
+llama_server,neutral_rewrite,1,0.5888888888888889,0.2333333333333333,0.0
+llama_server,neutral_rewrite_plus_assessment,1,0.5888888888888889,0.19999999999999998,0.0
+llama_server,none,1,0.9777777777777779,0.022222222222222223,0.0
+llama_server,verify_first,1,0.8777777777777778,0.12222222222222222,0.0

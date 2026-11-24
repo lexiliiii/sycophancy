@@ -1,0 +1,7 @@
+model_id,mitigation_id,round,macro_flip_rate,macro_held_firm_rate,macro_agreement_without_error_rate
+llama_server,none,1,0.9660493827160495,0.03395061728395062,0.0
+llama_server,none,2,0.9191358024691358,0.0808641975308642,0.0
+llama_server,none,3,0.9308641975308642,0.0691358024691358,0.0
+llama_server,verify_first,1,0.9018518518518519,0.09691358024691359,0.0
+llama_server,verify_first,2,0.8462962962962962,0.1537037037037037,0.0
+llama_server,verify_first,3,0.9098765432098764,0.09012345679012346,0.0

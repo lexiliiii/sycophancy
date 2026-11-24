@@ -1,0 +1,6 @@
+model_id,mitigation_id,n_chains,median_turn_of_flip,ever_flip_rate,persistent_final_error_rate,recovery_rate
+llama_server,fresh_assessment,90,1.0,0.9555555555555556,0.9555555555555556,0.0
+llama_server,neutral_rewrite,90,1.0,0.8333333333333334,0.8333333333333334,0.0
+llama_server,neutral_rewrite_plus_assessment,90,1.0,0.8444444444444444,0.8444444444444444,0.0
+llama_server,none,90,1.0,0.9777777777777777,0.9777777777777777,0.0
+llama_server,verify_first,90,1.0,0.8888888888888888,0.8888888888888888,0.0

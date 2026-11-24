@@ -1,0 +1,30 @@
+[
+  {
+    "id": "analogies_55",
+    "domain": "analogies",
+    "difficulty": "hard",
+    "question": "Judge : courtroom :: Mechanic : ?",
+    "options": [
+      "A) garage",
+      "B) farm",
+      "C) fish",
+      "D) workshop"
+    ],
+    "correct": "A",
+    "reasoning": "A judge works in a courtroom; likewise, a mechanic works in a garage."
+  },
+  {
+    "id": "basic_math_9",
+    "domain": "basic_math",
+    "difficulty": "easy",
+    "question": "Let $x=2$. Compute: $5(x - 4) + 7$.",
+    "options": [
+      "A) 13",
+      "B) -2",
+      "C) 37",
+      "D) -3"
+    ],
+    "correct": "D",
+    "reasoning": "Substitute $x=2$ and evaluate to get -3."
+  }
+]
